@@ -1,0 +1,23 @@
+{
+  "name": "module-2--udemy",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "Prem Choithani",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js",
+    "my-custom-command": "node server.js"
+  },
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "express-handlebars": "^8.0.3",
+    "mysql2": "^3.14.3",
+    "nodemon": "^3.1.11",
+    "pug": "^3.0.3",
+    "sequelize": "^6.37.7"
+  }
+}

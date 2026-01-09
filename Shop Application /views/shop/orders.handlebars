@@ -1,0 +1,14 @@
+<main>
+    {{#if hasOrders}}
+        {{#each orders}}
+            <h1>Order ID: {{this.id}}</h1>
+            <ul>
+                {{#each this.products}}
+                    <li>{{this.title}} (Qty :  {{this.displayQuantity}})</li>
+                {{/each}}
+            </ul>
+        {{/each}}
+    {{else}}
+        <h1>No Orders yet.</h1>
+    {{/if}}
+</main>
